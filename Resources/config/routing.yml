@@ -1,0 +1,3 @@
+bbit_audit_log_example:
+    path:     /bbit_audit_log_example
+    defaults: { _controller: BBITAuditLogBundle:Default:index }
