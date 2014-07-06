@@ -4,7 +4,7 @@ AuditLogBundle
 
 
 
-AuditLogBundle is a simple bundle wich provides you with a service wich you can use to log stuff to the database.
+AuditLogBundle is a simple bundle which provides you with a service which you can use to log stuff to the database.
 
 Sort of like monolog, but using the db instead.
 
@@ -51,5 +51,5 @@ public function registerBundles()
 
 ``` php
 $logger = $this->get('bbit_audit_log.service'); // get logger service
-$logger->log("type", "channel", "logmessaage to be inserted");
+$logger->log("type", "channel", "logmessage to be inserted");
 ```
