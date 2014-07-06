@@ -55,3 +55,6 @@ public function registerBundles()
 $logger = $this->get('bbit_audit_log.service'); // get logger service
 $logger->log("type", "channel", "logmessage to be inserted");
 ```
+
+
+todo: write tests and check code coverage
