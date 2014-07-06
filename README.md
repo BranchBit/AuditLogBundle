@@ -4,7 +4,7 @@ AuditLogBundle
 
 
 
-============== is a simple bundle wich provides you with a service wich you can use to log stuff to the database.
+AuditLogBundle is a simple bundle wich provides you with a service wich you can use to log stuff to the database.
 
 Sort of like monolog, but using the db instead.
 
