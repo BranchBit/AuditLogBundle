@@ -2,6 +2,8 @@ AuditLogBundle
 ==============
 
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/ac7bf46c-aa2a-4100-bcf0-c3bad08cc713/small.png)](https://insight.sensiolabs.com/projects/ac7bf46c-aa2a-4100-bcf0-c3bad08cc713)
+
 
 
 AuditLogBundle is a simple bundle which provides you with a service which you can use to log stuff to the database.
