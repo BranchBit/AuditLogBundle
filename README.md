@@ -4,14 +4,14 @@ AuditLogBundle
 
 
 
-AsyncDispatcherBundle is a simple bundle wich provides you with a service wich you can use to log stuff to the database.
+============== is a simple bundle wich provides you with a service wich you can use to log stuff to the database.
 
 Sort of like monolog, but using the db instead.
 
 
 ### Step 1: Download AuditLogBundle using composer
 
-Add BBITAsyncDispatcherBundle in your composer.json: (use the latest stable, NOT dev-master)
+Add BBITAuditLogBundle in your composer.json: (use the latest stable, NOT dev-master)
 
 ```js
 {
