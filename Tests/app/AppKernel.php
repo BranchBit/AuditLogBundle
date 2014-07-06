@@ -11,6 +11,7 @@ class AppKernel extends Kernel
             // Dependencies
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\SecurityBundle\SecurityBundle(),
+            new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             // My Bundle to test
             new BBIT\AuditLogBundle\BBITAuditLogBundle(),
         );

@@ -8,8 +8,8 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 class AuditLogServiceTest extends WebTestCase
 {
     public function setUp() {
-	$this->client = static::createClient();
-	$this->container = $this->client->getContainer();
+        $this->client = static::createClient();
+        $this->container = $this->client->getContainer();
     }
 
     public function testServiceLoaded()

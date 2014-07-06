@@ -5,11 +5,13 @@ namespace BBIT\AuditLogBundle\Services;
 use Doctrine\ORM\EntityManager;
 use BBIT\AuditLogBundle\Entity\AuditLog;
 
+
+
 class AuditLogService {
 	
 	private $em;
 
-	public function __construct(EntityManager $em)
+    public function __construct(EntityManager $em)
 	{
 		$this->em = $em;
 	}	
